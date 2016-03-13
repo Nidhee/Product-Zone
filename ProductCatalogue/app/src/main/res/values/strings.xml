@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProductCatalogue</string>
+    <string name="action_language_english">English</string>
+    <string name="action_language_hindi">Hindi</string>
+</resources>

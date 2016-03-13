@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+    <ImageView
+        android:id="@+id/ivProductImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:src="@drawable/img"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/row_banner_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/tvProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="product name"
+        android:layout_below="@id/ivProductImage"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"/>
+    <TextView
+        android:id="@+id/tvProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tvProductName"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"/>
+
+</RelativeLayout>
